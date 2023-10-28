@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.about_heading{
+    font-weight: 800;
+    font-size: 20pt;
+}
+.about_description{
+    font-weight: 500;
+    line-height: 15pt;
+    font-size: 11pt;
+}

@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.skills_section_parent_wrapper{
+    background-color: #d9d9d911;
+}
+.skills_sub_heading{
+    font-weight: 450;
+}
+.skills_heading{
+    font-weight: 700;
+    font-size: 20pt;
+}
+.skills_card{
+    border:unset;
+}
+.card_title{
+    padding-left: 10px;
+    font-weight: 780;
+    font-size:14pt;
+    border-left: solid 5px #FF6C02;
+}
+.skills_description{
+    font-size:10pt;
+}
+.skills_learn_text{
+    color: #FF6C02;
+    font-size: 10pt;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:767px){
+    .skills_row{
+        row-gap:10px;
+    }
+    .skills_sub_heading{
+        font-size:10pt;
+    }
+    .skills_heading{
+        font-size:16pt;
+    }
+    .card_title{
+        font-size:13pt;
+    }
+}

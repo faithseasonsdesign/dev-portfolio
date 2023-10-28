@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.technology_icons_wrapper{
+    column-gap:30pt;
+}
+.technology_icon{
+    font-size:50pt !important;
+}
+
+@media screen and (max-width:767px){
+    .technology_icons_wrapper{
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 10pt;
+        text-align: center;
+    }
+}
+@media screen and (min-width:400px) and (max-width:518px){
+    .technology_icons_wrapper{
+        display: grid !important;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 10pt;
+        text-align: center;
+    }
+}
+@media screen and (min-width:518px) and (max-width:990px){
+    .technology_icons_wrapper{
+        display: grid !important;
+        grid-template-columns: repeat(4,1fr);
+        row-gap: 10pt;
+        text-align: center;
+    }
+}

@@ -1,0 +1,65 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+/*hero section coding start here*/
+.hero_section_caption{
+font-weight: 900 !important;
+}
+.hero_section_description{
+font-weight: 460;
+}
+.buttons_wrapper{
+    column-gap:10px;
+}
+.hero_section_contact{
+    background: #0068E3;
+}
+.hero_section_build{
+    border:solid 2px #0068E3;
+}
+.hero_section_build_text{
+    color: #0068E3;
+}
+
+
+@media screen and (max-width:767px){
+    .hero_section_name{
+        font-size:12pt;
+        font-weight: 450;
+        text-align: center;
+    }
+    .hero_section_caption{
+        font-size:20pt;
+        text-align:center;
+    }
+    .hero_section_description{
+        font-size: 9pt;
+        text-align:center;
+    }
+
+    .buttons_wrapper{
+        justify-content: center;
+    }
+    .hero_section_build{
+        display: none;
+    }
+    .hero_section_row{
+        row-gap: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .hero_section_caption{
+        font-size:22pt;
+    }
+    .hero_section_description{
+        font-size:9pt;
+    }
+    .hero_section_contact,.hero_section_build{
+        font-size:9pt;
+        padding: 8px 20px 8px 20px !important;
+    }
+}
+/*hero section coding ended here*/
