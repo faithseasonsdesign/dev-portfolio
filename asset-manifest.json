@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/faithmatlaba/static/css/main.527b6dd2.css",
-    "main.js": "/faithmatlaba/static/js/main.c9be43a1.js",
+    "main.js": "/faithmatlaba/static/js/main.ba3588fd.js",
     "static/js/787.dd30d92d.chunk.js": "/faithmatlaba/static/js/787.dd30d92d.chunk.js",
     "static/media/6.png": "/faithmatlaba/static/media/6.a225951715ed8c02f7fc.png",
     "static/media/ui.jpg": "/faithmatlaba/static/media/ui.2d4b8ea561cfa8dcade1.jpg",
@@ -17,11 +17,11 @@
     "static/media/img.jpeg": "/faithmatlaba/static/media/img.cfd50c963a1bcbbad993.jpeg",
     "index.html": "/faithmatlaba/index.html",
     "main.527b6dd2.css.map": "/faithmatlaba/static/css/main.527b6dd2.css.map",
-    "main.c9be43a1.js.map": "/faithmatlaba/static/js/main.c9be43a1.js.map",
+    "main.ba3588fd.js.map": "/faithmatlaba/static/js/main.ba3588fd.js.map",
     "787.dd30d92d.chunk.js.map": "/faithmatlaba/static/js/787.dd30d92d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.527b6dd2.css",
-    "static/js/main.c9be43a1.js"
+    "static/js/main.ba3588fd.js"
   ]
 }
