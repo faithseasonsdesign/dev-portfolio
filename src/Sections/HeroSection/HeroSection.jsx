@@ -3,6 +3,7 @@ import { BrowserRouter,Routes,Route,NavLink,Link } from 'react-router-dom';
 //assets import start here
 import hero_section_img from './images/hero_image.png';
 import hero_section_img2 from './images/hero_image2.png';
+import hero_img3 from  './images/img.jpeg';
 //assets import ended here
 export default function HeroSection(){
     return(
@@ -21,9 +22,10 @@ export default function HeroSection(){
                 <p className="hero_section_description mt-3">
                   I specialize in UI/UX design , Graphic Design and Web Development.
                   I can also do some 3D modelling , develop mobile applications ,
-                  as well as content creation
+                  as well as some content creation. I consider myself flexible and 
+                  don't box myself under one thing.
                 </p>
-                <div className="buttons_wrapper d-flex">
+                <div className="buttons_wrapper d-flex mt-4">
                     <button className="btn btn-sm hero_section_contact text-white font-weight-bold px-4 py-2">
                         <Link className='text-white' to='/contact'><span>Contact&nbsp;&nbsp;Me</span></Link>
                     </button>

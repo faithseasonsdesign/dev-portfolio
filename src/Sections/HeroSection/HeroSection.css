@@ -8,7 +8,9 @@
 font-weight: 900 !important;
 }
 .hero_section_description{
-font-weight: 460;
+    font-weight: 400;
+    font-size: 11pt;
+    line-height: 16pt;
 }
 .buttons_wrapper{
     column-gap:10px;

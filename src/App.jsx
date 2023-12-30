@@ -6,6 +6,8 @@ import SkillsSection from './Sections/SkillsSection/SkillsSection';
 import ProjectSection from './Sections/ProjectsSection/ProjectSection';
 import TechnologiesSection from './Sections/TechnologiesSection/TechnologiesSection';
 import SkillsPage from './Pages/SkillsPage/SkillsPage';
+import AboutPage from './Pages/AboutPage/AboutPage';
+import ProjectsPage from './Pages/ProjectsPage/ProjectsPage';
 
 export default function App(){
   return(
@@ -24,13 +26,13 @@ export default function App(){
             </div>
             <div className="nav_list_items_wrapper container d-none d-sm-none d-md-flex justify-content-end">
               <li className="nav_link_item">
-                <Link className='text-dark' to='/skillsPage'><span>Skills</span></Link>
+                <Link className='text-dark active' to='/skillsPage'><span>Skills</span></Link>
               </li>
               <li className="nav_link_item">
-                <Link className='text-dark' to='/projectSection'><span>Projects</span></Link>
+                <Link className='text-dark' to='/projectPage'><span>Projects</span></Link>
               </li>
               <li className="nav_link_item">
-                <Link className='text-dark' to='/aboutSection'><span>About</span></Link>
+                <Link className='text-dark' to='/aboutPage'><span>About</span></Link>
               </li>
             </div>
           </div>
@@ -39,8 +41,8 @@ export default function App(){
         <Routes>
             <Route path='/' element={<HomePage/>} />
             <Route path='skillsPage' element={<SkillsPage/>} />
-            <Route path='projectSection' element={<ProjectSection/>} />
-            <Route path='aboutSection' element={<AboutSection/>} />
+            <Route path='projectPage' element={<ProjectsPage/>} />
+            <Route path='aboutPage' element={<AboutPage/>} />
         </Routes>
 
     </BrowserRouter>

@@ -11,3 +11,18 @@
     line-height: 15pt;
     font-size: 11pt;
 }
+
+
+@media screen and (max-width:767px){
+    .about_heading{
+        margin-top:6vh;
+        text-align:center;
+    }
+    .about_description{
+        font-size:10pt;
+        line-height: 14pt;
+        text-align: center;
+        font-weight: 400 !important;
+        margin-top: 2vh;
+    }
+}
