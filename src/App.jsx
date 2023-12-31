@@ -17,7 +17,7 @@ export default function App(){
         <div className="container_fluid navigation_parent_wrapper py-4">
           <div className="container navigation_child_wrapper d-flex align-items-center">
             <div className="logo_wrapper">
-              <li className='text-white'>
+              <li className='text-white home_link'>
                 <Link className='nav_link' to='/'>
                   <span className='name_span'>Faith</span> 
                   <span className='surname_span'>&nbsp;Matlaba</span>
@@ -28,7 +28,7 @@ export default function App(){
               <li className="nav_link_item">
                 <Link className='text-dark active' to='/skillsPage'><span>Skills</span></Link>
               </li>
-              <li className="nav_link_item">
+              <li className="nav_link_item mobile-d">
                 <Link className='text-dark' to='/projectPage'><span>Projects</span></Link>
               </li>
               <li className="nav_link_item">

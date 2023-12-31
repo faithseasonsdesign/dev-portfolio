@@ -12,9 +12,10 @@
 @media screen and (max-width:767px){
     .technology_icons_wrapper{
         display: grid !important;
-        grid-template-columns: repeat(2,1fr);
-        row-gap: 10pt;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 2pt;
         text-align: center;
+        padding-right: 20pt;
     }
 }
 @media screen and (min-width:400px) and (max-width:518px){

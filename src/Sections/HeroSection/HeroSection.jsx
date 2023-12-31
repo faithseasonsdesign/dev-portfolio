@@ -27,11 +27,11 @@ export default function HeroSection(){
                 </p>
                 <div className="buttons_wrapper d-flex mt-4">
                     <button className="btn btn-sm hero_section_contact text-white font-weight-bold px-4 py-2">
-                        <Link className='text-white' to='/contact'><span>Contact&nbsp;&nbsp;Me</span></Link>
+                        <Link className='text-white' to='/contact'><span>View Projects</span></Link>
                     </button>
                     <button className="btn btn-sm hero_section_build text-white font-weight-bold px-4 py-2">
                         <Link className='hero_section_build_text' to='/contact'><span>
-                            Lets&nbsp;Build&nbsp;Something</span>
+                            Contact</span>
                         </Link>
                     </button>
                 </div>

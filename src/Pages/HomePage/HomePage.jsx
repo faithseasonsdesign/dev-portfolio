@@ -8,9 +8,9 @@ export default function HomePage(){
     return(
         <div>
           <HeroSection/>
+          <ProjectSection/>
           <SkillsSection/>
           <TechnologiesSection/>
-          <ProjectSection/>
         </div>
     );
 }

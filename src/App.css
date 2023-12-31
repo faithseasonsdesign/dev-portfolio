@@ -27,4 +27,10 @@
   font-size: 11pt;
   color: black !important;
 }
+
+@media screen and (max-width:767px){
+  .home_link{
+    text-align:center !important;
+  }
+}
 /*navigation coding ended here*/
