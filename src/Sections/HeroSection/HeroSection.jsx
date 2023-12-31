@@ -3,6 +3,7 @@ import { BrowserRouter,Routes,Route,NavLink,Link } from 'react-router-dom';
 //assets import start here
 import hero_section_img from './images/hero_image.png';
 import hero_section_img2 from './images/hero_image2.png';
+import hero_background from './images/hero.jpg';
 import hero_img3 from  './images/img.jpeg';
 //assets import ended here
 export default function HeroSection(){
@@ -37,7 +38,7 @@ export default function HeroSection(){
                 </div>
               </div>
               <div className="col-12 col-sm-12 col-md-6 col-lg-5">
-                  <img src={hero_section_img2} alt="" className="img-fluid mx-auto" />
+                  <img src={hero_background} alt="" className="img-fluid mx-auto" />
               </div>
             </div>
           </div>
